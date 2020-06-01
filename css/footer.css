@@ -1,6 +1,6 @@
 .footer {
   margin-top: auto;
-  padding: 4% 0 1% 0;
+  padding: 2% 0 1% 0;
   width: 100%;
   background: url("../images/footer_1.jpg") 100% 100%;
   background-size: contain;
@@ -14,11 +14,16 @@
 }
 
 .footer-content {
-  font-style: italic;
-  color: #9abcd0;
-  padding: 0 15px 0 15px;
+  align-items: center;
+  padding: 15px 15px 0 15px;
 }
 
 .footer-img {
-  width: 50%;
+  width: 60%;
+}
+
+@media (max-width: 820px) {
+  .footer-img {
+    width: 100%;
+  }
 }

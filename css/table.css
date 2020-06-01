@@ -1,6 +1,8 @@
 .table {
+  justify-content: center;
   width: 60%;
-  margin: 30px auto;
+  padding-top: 20px;
+  margin: 0 auto;
 }
 
 .table_price {
