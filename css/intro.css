@@ -1,0 +1,15 @@
+.intro {
+  background-image: url("../images/11.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  width: 100%;
+
+}
+
+.text-intro-stationing {
+  margin: 5% 5%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
