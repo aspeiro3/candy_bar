@@ -16,3 +16,20 @@
 .button:hover {
   background: #da953b;
 }
+
+@media (max-width: 700px) {
+  .button {
+    font-size: none;
+    text-decoration: none;
+    padding: none;
+  }
+
+  .button-footer {
+    display: inline-block;
+    font-size: 3vw;
+    text-decoration: none;
+    padding: 3vw 4vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+  }
+}
