@@ -29,6 +29,12 @@
   background-color: #dfe3f0;
 }
 
+.feedback {
+  width: 40%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
 @media (max-width: 1200px) {
   .float-left {
     float: none;

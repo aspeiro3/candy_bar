@@ -1,10 +1,11 @@
-html, body {
-  background-color: #edf3fd;
+html,
+body,
+.wrapper {
   height: 100%;
 }
 
-.wrapper {
-  height: 100%;
+body {
+  background-color: #edf3fd;
 }
 
 .display-flex {
