@@ -13,8 +13,18 @@
   color: #fff;
 }
 
+.button-communication {
+  font-size: 14px;
+  padding: 10px 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  background: #8d5c44;
+}
+
 .button:hover {
   background: #da953b;
+  transition: all ease .3s;
 }
 
 @media (max-width: 700px) {

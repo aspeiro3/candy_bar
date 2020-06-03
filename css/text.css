@@ -43,6 +43,11 @@ p::first-letter {
   color: #666;
 }
 
+.text-small {
+  font-size: 10px;
+  color: rgb(83, 83, 83);
+}
+
 .text-footer {
   font-style: italic;
   color: #9abcd0;

@@ -15,6 +15,11 @@
   <link rel="stylesheet" href="css/intro.css">
   <link rel="stylesheet" href="css/content.css">
   <link rel="stylesheet" href="css/footer.css">
+
+  <script type="text/javascript" charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="js/parallax.js-1.5.0/parallax.min.js"></script>
+
+  <script type="text/javascript" charset="UTF-8" src="js/header.js"></script>
 </head>
 <body>
 
@@ -26,18 +31,18 @@
         </div>
 
         <div class="header-nav display-flex">
-          <a class="href" href="#candy_bar">О продукте</a>
-          <a class="href" href="#price">Цены</a>
-          <a class="href" href="tel:+380968161833">Заказать</a>
+          <a class="href href-scroll" href="#candy_bar">О продукте</a>
+          <a class="href href-scroll" href="#price">Цены</a>
+          <a class="href href-scroll" href="#price">Заказать</a>
         </div>
       </div>
     </div>
 
-    <div class="intro container">
+    <div class="intro" data-parallax="scroll" data-image-src="images/intro.jpg">
       <div class="text-intro-stationing text-center">
         <h1 class="title-large">Подставки для Кенди Бара на заказ!</h1>
         <h3 class="text-lead">Покупайте наш высококачественный продукт по самым низким ценам.<br>Бесплатная доставка при заказе нескольких изделий.</h3>
-        <a class="button" href="tel:+380968161833">Заказать прямо сейчас</a>
+        <a class="button href-scroll" href="#price">Заказать прямо сейчас</a>
         <h2 class="text-lead">Не откладывай на завтра то, что можно сделать сегодня!</h2>
       </div>
     </div>
@@ -55,9 +60,9 @@
         </div>
 
         <div class="col col-50">
-          <h2 class="title-medium text-center">Наше изделие!</h2>
+          <h2 class="title-medium text-center" id="candy_bar">Наше изделие!</h2>
           <p class="center">
-            <img id="candy_bar" class="content-img float-left" src="images/candy_bar2.jpeg" alt="[candy_bar]">
+            <img class="content-img float-left" src="images/candy_bar2.jpeg" alt="[candy_bar]">
           </p>
           <p class="title-small">
             Самый популярный элемент Кенди Бара - это подставки! На них можно размещать всевозможные десерты: мини-пирожные, кейкпопсы или разнообразные фруктовые нарезки, в которые втыкаются заостренные шпажки. Эта вещь достаточно универсальная и может на себе разместить абсолютно всё - как мелкие сладости, так и огромные свадебные торты. Также наше изделие можно использовать для фотосъемки различных мелочей, так-как верхняя часть зеркальная - это смотрится очень красиво и не обычно.
@@ -77,19 +82,19 @@
             <div class="col col-25 item">
               <p><img class="icon" src="images/4.png" alt="[icon]"></p>
               <h2 class="title-medium">Оплата<br>при<br>получении</h2>
-              <p class="text-medium">Не будет переживаний, что товар не доедет</p>
-            </div>
-
-            <div class="col col-25 item">
-              <p><img class="icon" src="images/3.png" alt="[icon]"></p>
-              <h2 class="title-medium">10%<br>экономии</h2>
-              <p class="text-medium">Постоянным клиентам скидка</p>
+              <p class="text-medium">Мы работаем и стараемся для вас</p>
             </div>
 
             <div class="col col-25 item">
               <p><img class="icon" src="images/2.png" alt="[icon]"></p>
               <h2 class="title-medium">Бесплатная<br>доставка</h2>
               <p class="text-medium">Покупая несколько едениц товара, доставку оплачиваем мы</p>
+            </div>
+
+            <div class="col col-25 item">
+              <p><img class="icon" src="images/3.png" alt="[icon]"></p>
+              <h2 class="title-medium">10%<br>экономии</h2>
+              <p class="text-medium">Постоянным клиентам скидка</p>
             </div>
           </div>
         </div>
@@ -106,29 +111,36 @@
             <tr>
               <td>35*35</td>
               <td>480&#8372;</td>
-              <td><a class="href" href="tel:+380968161833">Заказать</a></td>
+              <td><a class="href" href="https://forms.gle/hDX759ouckGo1aza7">Заказать</a></td>
             </tr>
             <tr>
               <td>30*30</td>
               <td>420&#8372;</td>
-              <td><a class="href" href="tel:+380968161833">Заказать</a></td>
+              <td><a class="href" href="https://forms.gle/SR26o8jPc8is91DV6">Заказать</a></td>
             </tr>
             <tr>
               <td>25*25</td>
               <td>360&#8372;</td>
-              <td><a class="href" href="tel:+380968161833">Заказать</a></td>
+              <td><a class="href" href="https://forms.gle/sNQowQHDybxu8H3T6">Заказать</a></td>
             </tr>
             <tr>
               <td>20*30</td>
               <td>360&#8372;</td>
-              <td><a class="href" href="tel:+380968161833">Заказать</a></td>
+              <td><a class="href" href="https://forms.gle/dwTvsWtAu6ZtcKXq7">Заказать</a></td>
             </tr>
             <tr>
               <td>свой</td>
-              <td>озвучит<br>менеджер</td>
-              <td><a class="href" href="tel:+380968161833">Заказать</a></td>
+              <td>сообщит<br>менеджер</td>
+              <td><a class="href" href="https://forms.gle/F17Mf94vRDTooGfz8">Заказать</a></td>
             </tr>
           </table>
+        </div>
+
+        <div class="feedback text-center items">
+          <h4><em>Для консультации свяжитесь с менеджером</em></h4>
+          <h6 class="text-small">+380968161833</h6>
+          <a class="button button-communication" href="tel:+380968161833">Позвонить</a>
+          <h6 class="text-small">*Тарификация звонка согласно условий Вашего тарифного плана.</h6>
         </div>
       </div>
     </div>
@@ -144,7 +156,7 @@
         </div>
 
         <div class="footer-content display-flex">
-          <a class="button button-footer text-footer" href="tel:+380968161833">Упаковать</a>
+          <a class="button button-footer text-footer href-scroll" href="#price">Упаковать</a>
         </div>
       </div>
     </div>
